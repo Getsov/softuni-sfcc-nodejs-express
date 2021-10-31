@@ -1,0 +1,23 @@
+{
+  "regions": [{
+          "id": 0,
+          "region_name": "Ruse",
+          "degrees": 9
+      },
+      {
+          "id": 1,
+          "region_name": "Sofia",
+          "degrees": 12
+      },
+      {
+          "id": 2,
+          "region_name": "Plovdiv",
+          "degrees": 15
+      },
+      {
+          "id": 3,
+          "region_name": "Varna",
+          "degrees": 7
+      }
+  ]
+}

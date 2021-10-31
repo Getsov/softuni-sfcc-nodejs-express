@@ -1,0 +1,18 @@
+extends layout
+
+block layout-content
+  div.View
+    h1.Banner Weather
+    form(action='/weather', method='post')
+      select(name='region', id='')
+        each region in regions
+          option(value=region) #{region.region_name}
+      input(type='submit', value='Get weather').submitButton
+    if weather
+      p The weather in #{weather.region_name} will be #{weather.degrees} degrees!
+
+    //- select
+    //-   each region in regions
+    //-     option(value=region.id) #{region.region_name}
+    //- div.NavButtons
+    //-   div.NavButton(onclick='getWeather()') Get weather!

@@ -1,0 +1,30 @@
+{
+  "name": "softuni-sfcc-nodejs-express",
+  "version": "1.0.0",
+  "description": "A web application using NodeJS and Express, which has a static HTML for homepage, a GET route “/weather” containing an select field and submit button. After POST form submission to “/weather” the response should be displayed below the form. Data about daily forecast and pre-defined regions (used for the dropdown) to be stored in a static JSON.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js",
+    "ui": "browser-sync start --config bs-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Getsov/softuni-sfcc-nodejs-express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Getsov/softuni-sfcc-nodejs-express/issues"
+  },
+  "homepage": "https://github.com/Getsov/softuni-sfcc-nodejs-express#readme",
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "browser-sync": "^2.27.7",
+    "nodemon": "^2.0.14"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.2"
+  }
+}
